@@ -83,27 +83,19 @@ git clone https://github.com/SPMINE-2425/Proyecto_API_CLD.git
 cd tu_repositorio
 ```
 
-### ✅ 2. Crear y Activar un Entorno Virtual (opcional pero recomendado)
+### ✅ 2. Crear y Activar un Entorno Virtual
 
 ```bash
 python -m venv env
 ```
 
-- En **Windows**:
   ```bash
-  .\env\Scripts\activate
+  conda create -n api python=3.11
+  conda activate api
+  pip install ipykernel poetry
+  poetry install
+  poetry init
   ```
-
-- En **Mac/Linux**:
-  ```bash
-  source env/bin/activate
-  ```
-
-### ✅ 3. Instalar Dependencias
-
-```bash
-pip install -r requirements.txt
-```
 
 ### ✅ 4. Iniciar la API
 
