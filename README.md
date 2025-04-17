@@ -80,7 +80,6 @@ Proyecto_API/
 
 ```bash
 git clone https://github.com/SPMINE-2425/Proyecto_API_CLD.git
-cd tu_repositorio
 ```
 
 ### ✅ 2. Crear y Activar un Entorno Virtual
