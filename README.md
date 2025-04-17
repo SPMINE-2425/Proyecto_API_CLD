@@ -110,7 +110,7 @@ En otra terminal:
 streamlit run app/app_streamlit.py
 ```
 
-Esto abrirá la app en el navegador en: `http://localhost:8501`ññ
+Esto abrirá la app en el navegador en: `http://localhost:8501`
 
 ### ✅ 6. Usar la App
 
