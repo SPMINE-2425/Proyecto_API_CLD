@@ -85,10 +85,6 @@ cd tu_repositorio
 
 ### ✅ 2. Crear y Activar un Entorno Virtual
 
-```bash
-python -m venv env
-```
-
   ```bash
   conda create -n api python=3.11
   conda activate api
@@ -115,7 +111,7 @@ En otra terminal:
 streamlit run app/app_streamlit.py
 ```
 
-Esto abrirá la app en el navegador en: `http://localhost:8501`
+Esto abrirá la app en el navegador en: `http://localhost:8501`ññ
 
 ### ✅ 6. Usar la App
 
