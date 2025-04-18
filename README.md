@@ -88,8 +88,8 @@ git clone https://github.com/SPMINE-2425/Proyecto_API_CLD.git
   conda create -n api python=3.11
   conda activate api
   pip install ipykernel poetry
-  poetry init
   poetry install
+  poetry init
   ```
 
 ### ✅ 4. Iniciar la API
